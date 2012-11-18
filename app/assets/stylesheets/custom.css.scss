@@ -4,6 +4,10 @@ $grayMediumLight: #eaeaea;
 
 /* universal */
 
+.span4 {
+	width: 350px;
+}
+
 html {
 	overflow-y: scroll;
 }
@@ -111,6 +115,21 @@ footer {
 		li {
 			float: left;
 			margin-left: 10px;
+		}
+	}
+}
+
+/* users index */
+
+.users {
+	list-style: none;
+	margin: 0;
+	li {
+		overflow: auto;
+		padding: 10px 0;
+		border-top: 1px solid $grayMediumLight;
+		&:last-child {
+			border-bottom: 1px solid $grayMediumLight;
 		}
 	}
 }
